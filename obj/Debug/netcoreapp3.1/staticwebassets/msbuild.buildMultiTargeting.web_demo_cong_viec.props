@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\web_demo_cong_viec.props" />
+</Project>
