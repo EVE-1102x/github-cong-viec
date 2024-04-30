@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+/* POP-UP start */
+#modal-content1 {
+    background-image: url('../images/banner/pop-up-background.png');
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    padding: 0 0 0 30px; 
+    background-size: 100% 100%;
+    background-origin: content-box;
+}
+
+#modal-header1 {
+    background-color: none;
+    border: 0;
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    padding: 50px 30px 30px 0;
+    text-align: center;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+#modal-body1 {
+    background-color: none;
+    padding: 20px 150px 20px 120px;
+}
+
+#modal-footer1 {
+    background-color: none;
+    border: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+#pop-up-button {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    background-color: whitesmoke !important;
+    border: 1px solid black !important;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    border-radius: 5px;
+}
+
+#pop-up-button-2 {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    background-color: #41AFAA !important;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #modal-content1 {
+        padding: 10px;
+        background-image: none;
+    }
+    #modal-header1 {
+        background-image :url('../images/banner/pop-up-background-mobile.png');
+        background-repeat: no-repeat;
+        background-size: 110% 160%;
+        background-origin: content-box;
+        padding: 10px 20px 30px 0;
+    }
+    #exampleModalLabel {
+        margin-top: 20px;
+    }
+    #modal-body1 {
+        background-color: none;
+        padding: 0;
+    }
+    #modal-footer1 {
+        padding: 0 0 20px 0;
+    }
+    #pop-up-button, #pop-up-button-2{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+.pop-up-form {
+    border: 0;
+    border-bottom: 1px solid black ;
+    border-radius: 0;
+    color: black !important;
+    padding-left: 0 !important;
+    background-color: whitesmoke;
+}
+
+/* POP-UP ends */

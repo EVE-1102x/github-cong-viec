@@ -1,19 +1,24 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - web_demo_cong_viec</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/home.css" />
 </head>
+
 <body>
     <header>
+
+        @* Navigation bar *@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">web_demo_cong_viec</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
@@ -22,13 +27,50 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a href="" class="nav-link text-dark" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Privacy</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        @* Modal *@
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" style="max-width: 900px; padding: 50px;">
+                <div class="modal-content" id="modal-content1">
+                    <div class="modal-header" id="modal-header1">
+                        <h1 class="modal-title" id="exampleModalLabel">Ask for advice</h1>
+                    </div>
+                    <div class="modal-body" id="modal-body1">
+                        <div style="margin-bottom: 30px;">We are happy to hear from you. You can fill out all information in the form below, we will
+                            respond to you as soon as possible.</div>
+                        <div class="mb-3 ">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
+                                placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
+                                placeholder="Phone*">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
+                                placeholder="Email*">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
+                                placeholder="Content need consultation">
+                        </div>
+                    </div>
+                    <div class="modal-footer" id="modal-footer1">
+                        <button id="pop-up-button" type="button" class="btn btn-secondary" data-bs-dismiss="modal">CANCEL</button>
+                        <button id="pop-up-button-2" type="button" class="btn btn-primary">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -47,4 +89,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>
