@@ -25,12 +25,12 @@ input[type=number] {
     background-color: #22677C;
 }
 
-    .header-top ul {
-        list-style-type: none;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
+.header-top ul {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .header-top-right {
     font-size: 14px;
@@ -128,7 +128,8 @@ input[type=number] {
         padding: 0 0 20px 0;
     }
 
-    #pop-up-button, #pop-up-button-2 {
+    #pop-up-button,
+    #pop-up-button-2 {
         padding-left: 20px !important;
         padding-right: 20px !important;
     }
@@ -156,7 +157,6 @@ input[type=number] {
     background-repeat: no-repeat;
     background-size: contain;
     max-height: 100vh;
-    margin-top: -55px;
     z-index: 1;
 }
 
@@ -222,7 +222,7 @@ input[type=number] {
     display: inline-block;
 }
 
-select > option.hidden_option {
+select>option.hidden_option {
     display: none;
 }
 
@@ -256,13 +256,13 @@ select > option.hidden_option {
     vertical-align: middle;
 }
 
-    .button-24:hover,
-    .button-24:active {
-        background-color: initial;
-        background-position: 0 0;
-        color: #FFA800;
-    }
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FFA800;
+}
 
-    .button-24:active {
-        opacity: .5;
-    }
+.button-24:active {
+    opacity: .5;
+}
