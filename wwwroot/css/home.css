@@ -14,6 +14,11 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .bg {
     background-color: whitesmoke;
     background-repeat: repeat-y;
@@ -265,4 +270,68 @@ select>option.hidden_option {
 
 .button-24:active {
     opacity: .5;
+}
+
+/* FOOTER start */
+
+.footer {
+    background-color: white;
+    z-index: 5;
+    white-space: unset;
+    line-height: unset;
+}
+
+.footer-1 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.footer-2 {
+    padding: 40px 80px;
+    max-width: 100%;
+    background-color: #22677C;
+    word-wrap: break-word;
+    font-size: 13px;
+    color: white;
+}
+
+.footer-icon-container {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-smol-texts {
+    margin: 5px;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.patt {
+    margin: 15px 0;
+}
+
+.modified-input-footer {
+    background-color: #22677C;
+    color: white;
+}
+
+.modified-input-footer span {
+    background-color: #22677C;
+    color: white;
+    border-right: 0;
+}
+
+.modified-input-footer input {
+    background-color: #22677C;
+    color: white;
+    border-left: 0;
+}
+
+.modified-input-footer ::placeholder {
+    color: white;
 }
