@@ -14,11 +14,6 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 .bg {
     background-color: whitesmoke;
     background-repeat: repeat-y;
@@ -52,6 +47,25 @@ a {
 .nav-link-text {
     color: #00677D !important;
     font-weight: 600 !important;
+}
+
+@media (max-width: 991px) {
+    .offcanvas-menu {
+        width: 100vw !important;
+    }
+
+    .btn-book-now {
+        max-width: 95px !important;
+        padding: 2px 2px 2px 2px !important;
+        background-color: #41AFAA !important;
+        border: #41AFAA !important;
+        border-radius: 5px !important;
+        font-weight: 600 !important;
+    }
+
+    .nav-link{
+        margin-bottom: 4px !important;
+    }
 }
 
 /* POP-UP start */
@@ -106,7 +120,7 @@ a {
     border: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 991px) {
     #modal-content1 {
         padding: 10px;
         background-image: none;
@@ -137,6 +151,46 @@ a {
     #pop-up-button-2 {
         padding-left: 20px !important;
         padding-right: 20px !important;
+    }
+
+    .footer-2 {
+        padding: 20px !important;
+        background-color: #00B6AB !important;
+    }
+
+    .collumn-2 {
+        padding-left: 10px !important;
+        width: unset !important;
+    }
+    .collumn-3 {
+        padding-left: 32%;
+        width: auto !important;
+    }
+    .master-container .row>* {
+        width: auto !important;
+    }
+
+    .modified-input-footer {
+        background-color: #00B6AB !important;
+        color: white;
+    }
+    
+    .modified-input-footer span {
+        background-color: #00B6AB !important;
+        color: white;
+        border-right: 0;
+    }
+    
+    .modified-input-footer input {
+        background-color: #00B6AB !important;
+        color: white;
+        border-left: 0;
+    }
+
+    .subscribe{
+        background-color: #025061;
+        border-radius: 10px;
+        padding: 8px 0;
     }
 }
 
@@ -281,6 +335,10 @@ select>option.hidden_option {
     line-height: unset;
 }
 
+.collumn-2 {
+    padding-left: 80px;
+}
+
 .footer-1 {
     text-align: center;
     font-size: 14px;
@@ -315,6 +373,16 @@ select>option.hidden_option {
     margin: 15px 0;
 }
 
+.patt .pat1 {
+    text-decoration: none;
+    color: black;
+}
+
+.patt .pat2 {
+    text-decoration: none;
+    color: white;
+}
+
 .modified-input-footer {
     background-color: #22677C;
     color: white;
@@ -333,5 +401,10 @@ select>option.hidden_option {
 }
 
 .modified-input-footer ::placeholder {
+    color: white;
+}
+
+.subscribe {
+    text-decoration: none !important;
     color: white;
 }
