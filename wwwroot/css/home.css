@@ -14,11 +14,6 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 .bg {
     background-color: whitesmoke;
     background-repeat: repeat-y;
@@ -52,6 +47,25 @@ a {
 .nav-link-text {
     color: #00677D !important;
     font-weight: 600 !important;
+}
+
+@media (max-width: 991px) {
+    .offcanvas-menu {
+        width: 100vw !important;
+    }
+
+    .btn-book-now {
+        max-width: 95px !important;
+        padding: 2px 2px 2px 2px !important;
+        background-color: #41AFAA !important;
+        border: #41AFAA !important;
+        border-radius: 5px !important;
+        font-weight: 600 !important;
+    }
+
+    .nav-link{
+        margin-bottom: 4px !important;
+    }
 }
 
 /* POP-UP start */
@@ -106,7 +120,7 @@ a {
     border: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     #modal-content1 {
         padding: 10px;
         background-image: none;
