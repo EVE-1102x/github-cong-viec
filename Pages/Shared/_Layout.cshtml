@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/home.css" + DateTime.Now.ToString("ddMMHHmmss")" />
-    <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" />
 </head>
 
@@ -80,7 +80,8 @@
         </div>
 
         @* Navigation bar *@
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="margin-bottom: 0 !important;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
+            style="margin-bottom: 0 !important;">
             <div class="container">
 
                 <a class="navbar-brand" asp-area="" asp-page="/Index">
@@ -117,8 +118,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link btn-book-now text-light" asp-area=""
-                                asp-page="/Contact">BOOK NOW</a>
+                            <a class="nav-link btn-book-now text-light" asp-area="" asp-page="/Contact">BOOK NOW</a>
                         </li>
                     </ul>
                 </div>
@@ -167,10 +167,67 @@
     <div>
         @RenderBody()
     </div>
-           
+
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - web_demo_cong_viec - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        <div class="footer-2">
+            <div class="row g-4">
+                <div class="col-4 smol-footer-text">
+                    <img src="@Url.Content("~/images/logo/catba-catamaran-light.png")" width="100%" height="60px">
+                    <div class="footer-smol-texts"><i class="bi bi-geo-alt-fill" style="color: #002E3B;"></i> Cat Ba
+                        Office: Group 1 Dap Nuoc, 6th Ha Sen, Cat Ba town, Cat Ba Island</div>
+                    <div class="footer-smol-texts"><i class="bi bi-telephone" style="color: #002E3B;"></i> (+84)
+                        354227768</div>
+                    <div class="footer-smol-texts"><i class="bi bi-envelope" style="color: #002E3B;"></i>
+                        operator@catbacatamaran.com</div>
+                </div>
+                <div class="col-3 montserrat" style="padding-left: 80px;">
+                    <div class="patt"><a href="#">HOME</a></div>
+                    <div class="patt"><a href="#" style="color: white;">THE SHIP</a></div>
+                    <div class="patt"><a href="#" style="color: white;">ITINERARY</a></div>
+                    <div class="patt"><a href="#" style="color: white;">CONTACT US</a></div>
+                </div>
+                <div class="col-2 montserrat">
+                    <div class="patt"><a href="#" style="color: white;">FOLLOW US</a></div>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <img src="@Url.Content("~/images/icon/footer-camera.png")" width="40px" height="40px">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="@Url.Content("~/images/icon/footer-facebook.png")" width="40px" height="40px">
+                        </div>
+                    </div>
+                    <div class="row g-3" style="margin-top: 1px;">
+                        <div class="col-md-4">
+                            <img src="@Url.Content("~/images/icon/footer-tiktok.png")" width="40px" height="40px">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="@Url.Content("~/images/icon/footer-whatsapp.png")" width="40px" height="40px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="montserrat">SUBSCRIBE TO OUR NEWSLETTER</div>
+                    <div style="font-size: 13px; margin: 5px 0;">Join our community now – subscribe for exclusive
+                        updates and offers</div>
+                    <div class="input-group mb-3 modified-input-footer">
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person"></i></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="Username">
+                    </div>
+                    <div class="input-group mb-3 modified-input-footer">
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                        <input type="email" class="form-control" placeholder="Mail" aria-label="Mail"
+                            aria-describedby="Mail">
+                    </div>
+                    <div style="text-align: center; montserrat"><a href="#" style="color: white;">SUBSCRIBE</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-1">
+            <div>2024 The One Island Escape, All rights reserved. </div>
+            <div style="font-size: 16px;">Powered by: <span><img
+                        src="@Url.Content("~/images/logo/logistech.png")"></span></div>
         </div>
     </footer>
 

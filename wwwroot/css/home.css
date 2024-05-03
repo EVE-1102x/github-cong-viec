@@ -14,6 +14,11 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .bg {
     background-color: whitesmoke;
     background-repeat: repeat-y;
@@ -25,12 +30,12 @@ input[type=number] {
     background-color: #22677C;
 }
 
-    .header-top ul {
-        list-style-type: none;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
+.header-top ul {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .header-top-right {
     font-size: 14px;
@@ -128,7 +133,8 @@ input[type=number] {
         padding: 0 0 20px 0;
     }
 
-    #pop-up-button, #pop-up-button-2 {
+    #pop-up-button,
+    #pop-up-button-2 {
         padding-left: 20px !important;
         padding-right: 20px !important;
     }
@@ -156,7 +162,6 @@ input[type=number] {
     background-repeat: no-repeat;
     background-size: contain;
     max-height: 100vh;
-    margin-top: -55px;
     z-index: 1;
 }
 
@@ -222,7 +227,7 @@ input[type=number] {
     display: inline-block;
 }
 
-select > option.hidden_option {
+select>option.hidden_option {
     display: none;
 }
 
@@ -256,13 +261,77 @@ select > option.hidden_option {
     vertical-align: middle;
 }
 
-    .button-24:hover,
-    .button-24:active {
-        background-color: initial;
-        background-position: 0 0;
-        color: #FFA800;
-    }
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FFA800;
+}
 
-    .button-24:active {
-        opacity: .5;
-    }
+.button-24:active {
+    opacity: .5;
+}
+
+/* FOOTER start */
+
+.footer {
+    background-color: white;
+    z-index: 5;
+    white-space: unset;
+    line-height: unset;
+}
+
+.footer-1 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.footer-2 {
+    padding: 40px 80px;
+    max-width: 100%;
+    background-color: #22677C;
+    word-wrap: break-word;
+    font-size: 13px;
+    color: white;
+}
+
+.footer-icon-container {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-smol-texts {
+    margin: 5px;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.patt {
+    margin: 15px 0;
+}
+
+.modified-input-footer {
+    background-color: #22677C;
+    color: white;
+}
+
+.modified-input-footer span {
+    background-color: #22677C;
+    color: white;
+    border-right: 0;
+}
+
+.modified-input-footer input {
+    background-color: #22677C;
+    color: white;
+    border-left: 0;
+}
+
+.modified-input-footer ::placeholder {
+    color: white;
+}
