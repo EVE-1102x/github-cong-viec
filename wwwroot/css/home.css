@@ -63,6 +63,10 @@ input[type=number] {
         font-weight: 600 !important;
     }
 
+    .header-top{
+        display: none;
+    }
+
     .nav-link{
         margin-bottom: 4px !important;
     }
