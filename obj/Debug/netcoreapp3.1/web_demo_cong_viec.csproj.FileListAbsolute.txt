@@ -123,3 +123,5 @@ C:\Users\LapTop\Source\Repos\github-cong-viec\obj\Debug\netcoreapp3.1\web_demo_c
 C:\Users\LapTop\Source\Repos\github-cong-viec\obj\Debug\netcoreapp3.1\web_demo.A3C45F9C.Up2Date
 C:\Users\LapTop\Source\Repos\github-cong-viec\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\LapTop\Source\Repos\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs
+D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\bin\Debug\netcoreapp3.1\libman.json
+D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs

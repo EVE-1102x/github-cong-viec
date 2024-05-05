@@ -66,6 +66,10 @@ input[type=number] {
     .nav-link{
         margin-bottom: 4px !important;
     }
+
+    .header-top {
+        display: none;
+    }
 }
 
 /* POP-UP start */
