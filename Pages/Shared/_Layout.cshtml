@@ -89,13 +89,16 @@
                 </a>
 
                 @* Toggle *@
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="offcanvas offcanvas-end offcanvas-menu" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-end offcanvas-menu" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <button type="button" class="btn-close m-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close m-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
                     </div>
 
                     <div class="offcanvas-body">
@@ -121,8 +124,84 @@
                                 <a class="nav-link nav-link-text me-3" asp-area="" asp-page="/Contact">CONTACT US</a>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item mt-3">
                                 <a class="nav-link btn-book-now text-light" asp-area="" asp-page="/Contact">BOOK NOW</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="offcanvas-content mx-2">
+                                    <hr id="custom-color">
+
+                                    @* Icon List *@
+                                    <div>
+                                        <ul class="offcanvas-content-list d-flex align-items-center my-2">
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-bird-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-camera-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-facebook-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-tiktok-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-whatsapp-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <ul class="offcanvas-content-list my-2">
+                                            <li class="offcanvas-content-list-item me-3">
+                                                @* Phone Number *@
+                                                <img class="me-2 mb-3"
+                                                    src="@Url.Content("~/images/icon/header-phone-tertiary.png")"
+                                                    alt="ERROR">
+
+                                                <a class="item-link-header link-underline link-underline-opacity-0 text-dark"
+                                                    href="#">
+                                                    (+84) 878 337 339
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                @* Email info *@
+                                                <img class="me-2"
+                                                    src="@Url.Content("~/images/icon/header-email-tertiary.png")"
+                                                    alt="ERROR">
+
+                                                <a class="item-link-header link-underline link-underline-opacity-0 text-dark"
+                                                    href="#">
+                                                    operator@catbacatamaran.com
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -174,9 +253,9 @@
 
     <footer class="border-top footer text-muted">
         <div class="footer-2">
-            <div class="row g-4">
-                <div class="col-4 smol-footer-text">
-                    <img src="@Url.Content("~/images/logo/catba-catamaran-light.png")" width="100%" height="60px">
+            <div class="row g-4 master-container">
+                <div class="col-sm-4 smol-footer-text">
+                    <img src="@Url.Content("~/images/logo/catba-catamaran-light.png")" width="253.5px" height="40px">
                     <div class="footer-smol-texts"><i class="bi bi-geo-alt-fill" style="color: #002E3B;"></i> Cat Ba
                         Office: Group 1 Dap Nuoc, 6th Ha Sen, Cat Ba town, Cat Ba Island</div>
                     <div class="footer-smol-texts"><i class="bi bi-telephone" style="color: #002E3B;"></i> (+84)
@@ -184,32 +263,40 @@
                     <div class="footer-smol-texts"><i class="bi bi-envelope" style="color: #002E3B;"></i>
                         operator@catbacatamaran.com</div>
                 </div>
-                <div class="col-3 montserrat" style="padding-left: 80px;">
-                    <div class="patt"><a href="#">HOME</a></div>
-                    <div class="patt"><a href="#" style="color: white;">THE SHIP</a></div>
-                    <div class="patt"><a href="#" style="color: white;">ITINERARY</a></div>
-                    <div class="patt"><a href="#" style="color: white;">CONTACT US</a></div>
-                </div>
-                <div class="col-2 montserrat">
-                    <div class="patt"><a href="#" style="color: white;">FOLLOW US</a></div>
-                    <div class="row g-3">
-                        <div class="col-md-4">
-                            <img src="@Url.Content("~/images/icon/footer-camera.png")" width="40px" height="40px">
+                <div class="col-sm-5">
+                    <div class="row g-4">
+                        <div class="col-sm-6 montserrat collumn-2">
+                            <div class="patt"><a class="pat1" href="#">HOME</a></div>
+                            <div class="patt"><a class="pat2" href="#">THE SHIP</a></div>
+                            <div class="patt"><a class="pat2" href="#">ITINERARY</a></div>
+                            <div class="patt"><a class="pat2" href="#">CONTACT US</a></div>
                         </div>
-                        <div class="col-md-4">
-                            <img src="@Url.Content("~/images/icon/footer-facebook.png")" width="40px" height="40px">
+                        <div class="col-sm-6 montserrat collumn-3">
+                            <div class="patt"><a class="pat2" href="#">FOLLOW US</a></div>
+                            <div class="row g-2">
+                                <div class="col-sm-3">
+                                    <a href="#"><img src="@Url.Content("~/images/icon/footer-camera.png")" width="40px"
+                                            height="40px"></a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="#"><img src="@Url.Content("~/images/icon/footer-facebook.png")"
+                                            width="40px" height="40px"></a>
+                                </div>
+                            </div>
+                            <div class="row g-2" style="margin-top: 1px;">
+                                <div class="col-sm-3">
+                                    <a href="#"><img src="@Url.Content("~/images/icon/footer-tiktok.png")" width="40px"
+                                            height="40px"></a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="#"><img src="@Url.Content("~/images/icon/footer-whatsapp.png")"
+                                            width="40px" height="40px"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row g-3" style="margin-top: 1px;">
-                        <div class="col-md-4">
-                            <img src="@Url.Content("~/images/icon/footer-tiktok.png")" width="40px" height="40px">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="@Url.Content("~/images/icon/footer-whatsapp.png")" width="40px" height="40px">
-                        </div>
-                    </div>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-3">
                     <div class="montserrat">SUBSCRIBE TO OUR NEWSLETTER</div>
                     <div style="font-size: 13px; margin: 5px 0;">Join our community now – subscribe for exclusive
                         updates and offers</div>
@@ -223,22 +310,21 @@
                         <input type="email" class="form-control" placeholder="Mail" aria-label="Mail"
                             aria-describedby="Mail">
                     </div>
-                    <div style="text-align: center; montserrat"><a href="#" style="color: white;">SUBSCRIBE</a></div>
+                    <a href="#">
+                        <div style="text-align: center;" class=" montserrat subscribe">SUBSCRIBE</div>
+                    </a>
                 </div>
             </div>
         </div>
-
         <div class="footer-1">
             <div>2024 The One Island Escape, All rights reserved. </div>
             <div style="font-size: 16px;">Powered by: <span><img
                         src="@Url.Content("~/images/logo/logistech.png")"></span></div>
         </div>
     </footer>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @RenderSection("Scripts", required: false)
 </body>
 
