@@ -7,7 +7,7 @@
     <title>@ViewData["Title"] - web_demo_cong_viec</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/home.css" + DateTime.Now.ToString("ddMMHHmmss")" />
+    <link rel="stylesheet" href="~/css/main.css" />
     <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" />
 </head>
@@ -121,7 +121,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link nav-link-text me-3" asp-area="" asp-page="/Contact">CONTACT US</a>
+                                <a class="nav-link nav-link-text me-3" asp-area="" asp-page="/ContactUs">CONTACT US</a>
                             </li>
 
                             <li class="nav-item">
@@ -133,42 +133,6 @@
             </div>
         </nav>
 
-        @* Modal *@
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" style="max-width: 900px; padding: 50px;">
-                <div class="modal-content" id="modal-content1">
-                    <div class="modal-header" id="modal-header1">
-                        <h1 class="modal-title" id="exampleModalLabel">Ask for advice</h1>
-                    </div>
-                    <div class="modal-body" id="modal-body1">
-                        <div style="margin-bottom: 30px;">We are happy to hear from you. You can fill out all
-                            information in the form below, we will
-                            respond to you as soon as possible.</div>
-                        <div class="mb-3 ">
-                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
-                                placeholder="Name">
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
-                                placeholder="Phone*">
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
-                                placeholder="Email*">
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
-                                placeholder="Content need consultation">
-                        </div>
-                    </div>
-                    <div class="modal-footer" id="modal-footer1">
-                        <button id="pop-up-button" type="button" class="btn btn-secondary"
-                            data-bs-dismiss="modal">CANCEL</button>
-                        <button id="pop-up-button-2" type="button" class="btn btn-primary">SEND</button>
-                    </div>
-                </div>
-            </div>
-        </div>
     </header>
 
     <div>
@@ -235,7 +199,9 @@
                         <input type="email" class="form-control" placeholder="Mail" aria-label="Mail"
                             aria-describedby="Mail">
                     </div>
-                    <a href="#"><div style="text-align: center;" class=" montserrat subscribe">SUBSCRIBE</div></a>
+                    <a href="#">
+                        <div style="text-align: center;" class=" montserrat subscribe">SUBSCRIBE</div>
+                    </a>
                 </div>
             </div>
         </div>

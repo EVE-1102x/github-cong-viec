@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
+
+/* Get rid of default stuffs*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.footer {
+    display: inline-block;
+    position: relative;
+}
+
+.bg {
+    background-color: whitesmoke;
+    background-repeat: repeat-y;
+    background-image: url('../images/banner/background.png');
+    margin-bottom: unset !important;
+}
+
+/* Header-top start */
+.header-top {
+    background-color: #22677C;
+}
+
+.header-top ul {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top-right {
+    font-size: 14px;
+}
+
+/* Navigation bar start */
+.btn-book-now {
+    background-color: #41AFAA !important;
+    border: #41AFAA !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+}
+
+.nav-link-text {
+    color: #00677D !important;
+    font-weight: 600 !important;
+}
+
+@media (max-width: 991px) {
+    .offcanvas-menu {
+        width: 100vw !important;
+    }
+
+    .btn-book-now {
+        max-width: 95px !important;
+        padding: 2px 2px 2px 2px !important;
+        background-color: #41AFAA !important;
+        border: #41AFAA !important;
+        border-radius: 5px !important;
+        font-weight: 600 !important;
+    }
+
+    .nav-link {
+        margin-bottom: 4px !important;
+    }
+
+    .header-top {
+        display: none;
+    }
+}
+
+/* FOOTER start */
+
+.footer {
+    background-color: white;
+    z-index: 5;
+    white-space: unset;
+    line-height: unset;
+}
+
+.collumn-2 {
+    padding-left: 80px;
+}
+
+.footer-1 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.footer-2 {
+    padding: 40px 80px;
+    max-width: 100%;
+    background-color: #22677C;
+    word-wrap: break-word;
+    font-size: 13px;
+    color: white;
+}
+
+.footer-icon-container {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-smol-texts {
+    margin: 5px;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.patt {
+    margin: 15px 0;
+}
+
+.patt .pat1 {
+    text-decoration: none;
+    color: black;
+}
+
+.patt .pat2 {
+    text-decoration: none;
+    color: white;
+}
+
+.modified-input-footer {
+    background-color: #22677C;
+    color: white;
+}
+
+.modified-input-footer span {
+    background-color: #22677C;
+    color: white;
+    border-right: 0;
+}
+
+.modified-input-footer input {
+    background-color: #22677C;
+    color: white;
+    border-left: 0;
+}
+
+.modified-input-footer ::placeholder {
+    color: white;
+}
+
+.subscribe {
+    text-decoration: none !important;
+    color: white;
+}
+
+/* POP-UP start */
+.modal-content-mod {
+    background-image: url('../images/banner/pop-up-background.png');
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    padding: 0 0 0 30px;
+    background-size: 100% 100%;
+    background-origin: content-box;
+}
+
+.modal-header-mod {
+    background-color: none;
+    border: 0;
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    padding: 50px 30px 30px 0;
+    text-align: center;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.modal-body-mod {
+    background-color: none;
+    padding: 20px 150px 20px 120px;
+}
+
+.modal-footer-mod {
+    background-color: none;
+    border: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.pop-up-button-1 {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    background-color: whitesmoke !important;
+    border: 1px solid black !important;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    border-radius: 5px;
+}
+
+.pop-up-button-2 {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    background-color: #41AFAA !important;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    border: 0;
+}
+
+.pop-up-form {
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    color: black !important;
+    padding-left: 0 !important;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 991px) {
+    .modal-content-mod {
+        padding: 10px;
+        background-image: none;
+    }
+
+    .modal-header-mod {
+        background-image: url('../images/banner/pop-up-background-mobile.png');
+        background-repeat: no-repeat;
+        background-size: 110% 160%;
+        background-origin: content-box;
+        padding: 10px 20px 30px 0;
+    }
+
+    #exampleModalLabel {
+        margin-top: 20px;
+    }
+
+    .modal-body-mod {
+        background-color: none;
+        padding: 0;
+    }
+
+    .modal-footer-mod {
+        padding: 0 0 20px 0;
+    }
+
+    .pop-up-button-1,
+    .pop-up-button-2 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .footer-2 {
+        padding: 20px !important;
+        background-color: #00B6AB !important;
+    }
+
+    .collumn-2 {
+        padding-left: 10px !important;
+        width: unset !important;
+    }
+
+    .collumn-3 {
+        padding-left: 32%;
+        width: auto !important;
+    }
+
+    .master-container .row>* {
+        width: auto !important;
+    }
+
+    .modified-input-footer {
+        background-color: #00B6AB !important;
+        color: white;
+    }
+
+    .modified-input-footer span {
+        background-color: #00B6AB !important;
+        color: white;
+        border-right: 0;
+    }
+
+    .modified-input-footer input {
+        background-color: #00B6AB !important;
+        color: white;
+        border-left: 0;
+    }
+
+    .subscribe {
+        background-color: #025061;
+        border-radius: 10px;
+        padding: 8px 0;
+    }
+}

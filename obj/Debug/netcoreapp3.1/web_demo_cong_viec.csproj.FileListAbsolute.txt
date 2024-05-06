@@ -125,3 +125,6 @@ C:\Users\LapTop\Source\Repos\github-cong-viec\bin\Debug\netcoreapp3.1\libman.jso
 C:\Users\LapTop\Source\Repos\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs
 D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\bin\Debug\netcoreapp3.1\libman.json
 D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs
+D:\For work\github-cong-viec-binh\bin\Debug\netcoreapp3.1\libman.json
+D:\For work\github-cong-viec-binh\obj\Debug\netcoreapp3.1\Razor\Pages\ContactUs.cshtml.g.cs
+D:\For work\github-cong-viec-binh\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs

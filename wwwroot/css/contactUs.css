@@ -1,0 +1,123 @@
+/* TOP LEFT CELL EXCLUSIVE */
+.top-left-cell {
+    background: rgba(0, 0, 0, 0.42) url('../images/banner/contact-us-image-1.png');
+    background-blend-mode: darken;
+    background-size: 100% 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    padding: 100px 65px 200px 65px;
+}
+
+.divider {
+    height: 1px;
+    border: 1px solid white ;
+    max-width: 80%;
+    padding: 0 !important;
+    margin-top: 3%;
+    margin-bottom: 9%;
+}
+
+.top-left-cell div {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.top-left-cell-heading {
+    font-family: "Kaushan Script", cursive;
+    font-size: 40px !important;
+    padding-bottom: 0 !important;
+}
+
+@media (max-width: 991px) {
+    .top-left-cell {
+        padding: 20px 20px 200px 20px;
+    }
+}
+
+/* BOTTOM LEFT CELL EXCLUSIVE */
+
+.bottom-left-cell {
+    background-color: #FFF6E8;
+    height: auto;
+}
+
+.modal-content-mod-2 {
+    padding: 20px 0 30px 0;
+}
+
+.modal-header-mod-2 {
+    background-image: url('../images/banner/contact-us-splash.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0;
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    padding: 30px 60px 30px 10px;
+    text-align: center;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.modal-body-mod-2 {
+    background-color: none;
+    padding: 20px 90px 20px 110px;
+}
+
+.modal-footer-mod-2 {
+    background-color: none;
+    border: 0;
+    text-align: right;
+    display: inline-block;
+    padding-right: 90px;
+}
+
+.pop-up-button-1 {
+    background-color: #FFF6E8 !important;
+}
+
+.pop-up-form {
+    background-color: #FFF6E8;
+}
+
+@media (max-width: 991px) {
+    .modal-body-mod-2 {
+        padding: 10px;
+    }
+
+    .modal-header-mod-2 {
+        background-image: url('../images/banner/contact-us-splash-2.png');
+    }
+
+    #exampleModalLabel {
+        font-size: 38px;
+    }
+
+    .modal-footer-mod-2 {
+        text-align: center;
+        padding: 10px !important;
+    }
+
+    .pop-up-button-1 {
+        width: 45%;
+    }
+
+    .pop-up-button-2 {
+        width: 45%;
+    }
+}
+
+/* RIGHT CELL EXCLUSIVE */
+
+.right-cell {
+    background: url(../images/banner/contact-us-image-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 991px) {
+    .right-cell {
+        height: 500px;
+    }
+}
