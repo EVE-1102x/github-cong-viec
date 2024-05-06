@@ -1,9 +1,8 @@
 /* HOME-PAGE start */
 .head-img-container {
-    max-width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    max-height: 100vh;
+    background-position: bottom;
 }
 
 .banner-container-1 {
