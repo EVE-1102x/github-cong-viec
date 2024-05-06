@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("web_demo_cong_viec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d17dc2a18e8b2db3aa3d7f28bbfb8cd3383a2fab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab0c150793fa76de9d8aeb82208472ff22546d2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("web_demo_cong_viec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("web_demo_cong_viec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

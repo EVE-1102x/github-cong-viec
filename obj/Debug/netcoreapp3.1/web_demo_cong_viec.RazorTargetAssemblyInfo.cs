@@ -16,7 +16,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("web_demo_cong_viec")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d17dc2a18e8b2db3aa3d7f28bbfb8cd3383a2fab")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+363b25a045dcfde95a96422ae796c11168e6fd33")]
+>>>>>>> ad96168 (fix navbar 3/5/2024)
 [assembly: System.Reflection.AssemblyTitleAttribute("web_demo_cong_viec.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
