@@ -124,15 +124,88 @@
                                 <a class="nav-link nav-link-text me-3" asp-area="" asp-page="/ContactUs">CONTACT US</a>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item pt-2">
                                 <a class="nav-link btn-book-now text-light" asp-area="" asp-page="/BookNow">BOOK NOW</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="offcanvas-content mx-2">
+                                    <hr id="custom-color">
+
+                                    @* Icon List *@
+                                    <div>
+                                        <ul class="offcanvas-content-list d-flex align-items-center my-2">
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-bird-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-camera-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-facebook-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-tiktok-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                <a href="">
+                                                    <img src="@Url.Content("~/images/icon/header-whatsapp-dark.png")"
+                                                        alt="ERROR">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <ul class="offcanvas-content-list my-2">
+                                            <li class="offcanvas-content-list-item me-3">
+                                                @* Phone Number *@
+                                                <img class="me-2 mb-3"
+                                                    src="@Url.Content("~/images/icon/header-phone-tertiary.png")"
+                                                    alt="ERROR">
+
+                                                <a class="item-link-header link-underline link-underline-opacity-0 text-dark"
+                                                    href="#">
+                                                    (+84) 878 337 339
+                                                </a>
+                                            </li>
+
+                                            <li class="offcanvas-content-list-item me-3">
+                                                @* Email info *@
+                                                <img class="me-2"
+                                                    src="@Url.Content("~/images/icon/header-email-tertiary.png")"
+                                                    alt="ERROR">
+
+                                                <a class="item-link-header link-underline link-underline-opacity-0 text-dark"
+                                                    href="#">
+                                                    operator@catbacatamaran.com
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-
     </header>
 
     <div>

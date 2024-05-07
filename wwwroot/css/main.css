@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* Define variables */
+:root {
+    --secondary10: #02524D;
+    --secondary20: #22677C;
+    --secondary30: #00B6AB;
+    --secondary40: #20B1C9;
+    --secondary50: #2CFFF2;
+    --primary20: #00677D;
+    --primary40: #20B1C9;
+    --tertiary0: #FFA800;
+  }
+
 /* Get rid of default stuffs*/
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -12,11 +32,6 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
-}
-
-.footer {
-    display: inline-block;
-    position: relative;
 }
 
 .bg {
@@ -48,11 +63,22 @@ input[type=number] {
     border: #41AFAA !important;
     border-radius: 5px !important;
     font-weight: 600 !important;
+    display: inline !important;
 }
 
 .nav-link-text {
     color: #00677D !important;
     font-weight: 600 !important;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas-content {
+    display: none;
 }
 
 @media (max-width: 991px) {
@@ -61,30 +87,44 @@ input[type=number] {
     }
 
     .btn-book-now {
-        max-width: 95px !important;
-        padding: 2px 2px 2px 2px !important;
+        padding: 2px 4px 2px 4px !important;
         background-color: #41AFAA !important;
         border: #41AFAA !important;
         border-radius: 5px !important;
         font-weight: 600 !important;
+        display: inline !important;
     }
 
-    .nav-link {
-        margin-bottom: 4px !important;
+    .offcanvas-content {
+        display: block;
     }
 
-    .header-top {
+    .offcanvas-content hr#custom-color {
+        border: 2px solid var(--primary40);
+        color: var(--primary40);
+    }
+
+    .navbar .nav-item {
+        margin-bottom: 6px;
+    }
+    
+    .header-top{
         display: none;
+    }
+
+    .nav-link{
+        margin-bottom: 4px !important;
     }
 }
 
 /* FOOTER start */
-
 .footer {
     background-color: white;
     z-index: 5;
     white-space: unset;
     line-height: unset;
+    display: inline-block;
+    position: relative;
 }
 
 .collumn-2 {

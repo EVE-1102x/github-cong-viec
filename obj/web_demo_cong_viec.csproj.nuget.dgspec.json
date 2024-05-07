@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\For work\\github-cong-viec-binh\\web_demo_cong_viec.csproj": {}
+    "D:\\For work\\github-cong-viec-master\\web_demo_cong_viec.csproj": {}
   },
   "projects": {
-    "D:\\For work\\github-cong-viec-binh\\web_demo_cong_viec.csproj": {
+    "D:\\For work\\github-cong-viec-master\\web_demo_cong_viec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\For work\\github-cong-viec-binh\\web_demo_cong_viec.csproj",
+        "projectUniqueName": "D:\\For work\\github-cong-viec-master\\web_demo_cong_viec.csproj",
         "projectName": "web_demo_cong_viec",
-        "projectPath": "D:\\For work\\github-cong-viec-binh\\web_demo_cong_viec.csproj",
+        "projectPath": "D:\\For work\\github-cong-viec-master\\web_demo_cong_viec.csproj",
         "packagesPath": "C:\\Users\\LapTop\\.nuget\\packages\\",
-        "outputPath": "D:\\For work\\github-cong-viec-binh\\obj\\",
+        "outputPath": "D:\\For work\\github-cong-viec-master\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LapTop\\AppData\\Roaming\\NuGet\\NuGet.Config",
