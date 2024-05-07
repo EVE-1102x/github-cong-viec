@@ -724,7 +724,7 @@ select>option.hidden_option {
         padding: 10px 10px 100px 10px;
     }
     .texter-top {
-        padding-top: 10px;
+        padding-top: 10px !important;
         text-align: center;
     }
 }
