@@ -1,56 +1,46 @@
-/* Section-banner start */
-.bg-banner {
-background-image: url(../images/banner/index-banner.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: bottom;
-min-height: 80vh;
-position: relative;
+/* HOME-PAGE start */
+.head-img-container {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 100vh;
 }
 
-.section-banner-container {
-    width: 100%;
+.banner-container-1 {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 100vh;
+    z-index: 1;
+}
+
+.img-cruise {
+    float: left;
     position: absolute;
-    top: 68%;
+    z-index: -1;
 }
 
-.banner-heading {
+.head-text-1 {
     font-family: "Kaushan Script", cursive;
-    font-size: calc(1rem + 2.2vw);
+    font-size: 42px;
     color: white;
-    margin-left: 10%;
+    margin: 435px 0 0 0;
 }
 
-.banner-heading#heading-text{
-    margin-left: 39%;
+.head-text-img {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 80px 0 10px 5px;
 }
 
-@media (max-width: 768px) {
-    .bg-banner {
-        background-image: url(../images/banner/cruise.png);
-        display: flex;
-        justify-content: center; 
-    }
-
-    .section-banner-container {
-        padding-left: 15px;
-        top: 0;
-    }
-
-    .banner-heading {
-        margin-left: 0;
-        margin-top: 20px;
-        margin-bottom: 0;
-        font-size: calc(1.525rem + 3.3vw);
-    }
-
-    .banner-heading#heading-text{
-        margin-top: 0;
-        margin-left: 0;
-    }
+.head-text-2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 42px;
+    color: white;
+    text-align: center;
 }
 
-/* Form book-now start */
 .home-book-now-form {
     width: 90%;
     max-height: auto;

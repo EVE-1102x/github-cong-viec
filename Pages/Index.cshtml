@@ -7,54 +7,61 @@
 <link rel="stylesheet" href="~/css/home.css" />
 
 @* Modal *@
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" style="max-width: 900px; padding: 50px;">
-        <div class="modal-content modal-content-mod">
-            <div class="modal-header modal-header-mod">
-                <h1 class="modal-title" id="exampleModalLabel">Ask for advice</h1>
-            </div>
-            <div class="modal-body modal-body-mod">
-                <div style="margin-bottom: 30px;">We are happy to hear from you. You can fill out all
-                    information in the form below, we will
-                    respond to you as soon as possible.</div>
-                <div class="mb-3 ">
-                    <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
-                        placeholder="Name">
+<form action="" method="post" enctype='multipart/form-data'>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 900px; padding: 50px;">
+            <div class="modal-content modal-content-mod">
+                <div class="modal-header modal-header-mod">
+                    <h1 class="modal-title" id="exampleModalLabel">Ask for advice</h1>
                 </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control pop-up-form" id="exampleFormControlInput2"
-                        placeholder="Phone*">
+                <div class="modal-body modal-body-mod">
+                    <div style="margin-bottom: 30px;">We are happy to hear from you. You can fill out all
+                        information in the form below, we will
+                        respond to you as soon as possible.</div>
+                    <div class="mb-3 ">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
+                            placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput2"
+                            placeholder="Phone*">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput3"
+                            placeholder="Email*">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput4"
+                            placeholder="Content need consultation">
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control pop-up-form" id="exampleFormControlInput3"
-                        placeholder="Email*">
+                <div class="modal-footer modal-footer-mod">
+                    <button type="button" class="btn btn-secondary pop-up-button-1"
+                        data-bs-dismiss="modal">CANCEL</button>
+                    <button type="button" class="btn btn-primary pop-up-button-2">SEND</button>
                 </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control pop-up-form" id="exampleFormControlInput4"
-                        placeholder="Content need consultation">
-                </div>
-            </div>
-            <div class="modal-footer modal-footer-mod">
-                <button type="button" class="btn btn-secondary pop-up-button-1" data-bs-dismiss="modal">CANCEL</button>
-                <button type="button" class="btn btn-primary pop-up-button-2">SEND</button>
             </div>
         </div>
     </div>
-</div>
+</form>
 
 @* header start *@
-<section class="section-banner bg-banner">
-    @* banner content *@
-    <div class="section-banner-container">
-        <h1 class="banner-heading">
-            Journey through the heart
-        </h1>
-
-        <h1 class="banner-heading" id="heading-text">
-            of a world heritage Lan Ha Bay
-        </h1>
+<div class="head-img-container">
+    <img src="~/images/banner/cruise.png" class="img-fluid img-cruise" alt="Cruise">
+    <div class="row g-0">
+        <div class="col-5">
+            <div class="head-text-1" style="text-align:right;">Journey through the heart</div>
+        </div>
+        <div class="col-7 head-text-img">
+            <img src="~/images/banner/home-vector-1.png" width="100%" height="100%" />
+        </div>
     </div>
-</section>
+    <div class="row g-0">
+        <div class="head-text-2">
+            <div>of a world heritage Lan Ha Bay</div>
+        </div>
+    </div>
+</div>
 
 <div class="home-book-now-container">
     <form action="" method="post">

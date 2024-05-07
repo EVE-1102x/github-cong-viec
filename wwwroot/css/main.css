@@ -1,24 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
 
-/* Define variables */
-:root {
-    --secondary10: #02524D;
-    --secondary20: #22677C;
-    --secondary30: #00B6AB;
-    --secondary40: #20B1C9;
-    --secondary50: #2CFFF2;
-    --primary20: #00677D;
-    --primary40: #20B1C9;
-    --tertiary0: #FFA800;
-  }
-
 /* Get rid of default stuffs*/
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 .footer {
@@ -55,23 +48,11 @@ input::-webkit-inner-spin-button {
     border: #41AFAA !important;
     border-radius: 5px !important;
     font-weight: 600 !important;
-    display: inline !important;
-}
-
-.navbar ul {
-    list-style-type: none;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-link-text {
     color: #00677D !important;
     font-weight: 600 !important;
-}
-
-.offcanvas-content {
-    display: none;
 }
 
 @media (max-width: 991px) {
@@ -80,24 +61,12 @@ input::-webkit-inner-spin-button {
     }
 
     .btn-book-now {
-        padding: 2px 4px 2px 4px !important;
+        max-width: 95px !important;
+        padding: 2px 2px 2px 2px !important;
         background-color: #41AFAA !important;
         border: #41AFAA !important;
         border-radius: 5px !important;
         font-weight: 600 !important;
-        display: inline !important;
-    }
-    .offcanvas-content {
-        display: block;
-    }
-
-    .offcanvas-content hr#custom-color {
-        border: 2px solid var(--primary40);
-        color: var(--primary40);
-    }
-
-    .navbar .nav-item {
-        margin-bottom: 6px;
     }
 
     .nav-link {
@@ -110,6 +79,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* FOOTER start */
+
 .footer {
     background-color: white;
     z-index: 5;
