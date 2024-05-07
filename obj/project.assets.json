@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\LapTop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\web_demo_cong_viec.csproj",
+      "projectUniqueName": "D:\\For work\\github-cong-viec-master\\web_demo_cong_viec.csproj",
       "projectName": "web_demo_cong_viec",
-      "projectPath": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\web_demo_cong_viec.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\obj\\",
+      "projectPath": "D:\\For work\\github-cong-viec-master\\web_demo_cong_viec.csproj",
+      "packagesPath": "C:\\Users\\LapTop\\.nuget\\packages\\",
+      "outputPath": "D:\\For work\\github-cong-viec-master\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LapTop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

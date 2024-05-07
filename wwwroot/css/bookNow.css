@@ -1,0 +1,172 @@
+.book-now-container {
+    background-image: url(../images/banner/book-now-background.png);
+    background-size: 100% 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    padding: 80px 20% 80px 20%;
+}
+
+select>option.hidden_option {
+    display: none;
+}
+
+/* HEADER starts  */
+
+.book-now-form-header-container {
+    text-align: center;
+}
+
+.book-now-form-header-container .col-sm-9 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 42px;
+    color: white;
+    text-align: right;
+    padding: 50px 15px 0 0;
+}
+
+.bg-container {
+    background: url(../images/banner/book-now-price-tag.png);
+    height: fit-content;
+    padding: 25px 10px 25px 10px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 143.5px 140px;
+    font-weight: 600;
+    background-position: center;
+}
+
+@media (max-width: 991px) {
+
+    .book-now-container {
+        background-image: url(../images/banner/book-now-background-mobile.png);
+        padding: 170px 10px 80px 10px;
+    }
+
+    .book-now-form-header-container .col-sm-9 {
+        font-size: 30px;
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
+
+/* BODY starts */
+
+.book-now-forms label{
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.book-now-forms input, .book-now-forms textarea , .book-now-forms select{
+    background-color: #22677C;
+    border-radius: 20px;
+    border: 1px solid white ;
+    color: white;
+}
+
+.book-now-form-body-container {
+    padding-right: 18%;
+}
+
+@media (max-width: 991px) {
+    .book-now-form-body-container {
+        padding-right: 0 !important;
+    }
+}
+
+/* FOOTER STARTS */
+
+.book-now-form-footer-container {
+    padding-right: 18%;
+}
+
+.separator {
+    height: 1px;
+    border-bottom: 2px dashed white;
+    max-width: 100%;
+    padding: 20px 0;
+}
+
+.book-now-bottom-rows div {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.book-now-bottom-rows .col-sm-6 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.footer-text-container {
+    position: relative;
+    margin: 20px 0;
+}
+
+.footer-text-left, .footer-text-right {
+    position: absolute;
+}
+
+.footer-text-left {
+    left:0;
+    top:0;
+}
+
+.footer-text-right {
+    right:0;
+    top:0;
+}
+
+.total {
+    font-size: 22px !important;
+}
+
+.button-book-now {
+  background: #FFA800;
+  border: 1px solid #FFA800;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.button-book-now:hover,
+.button-book-now:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FFA800;
+}
+
+.button-book-now:active {
+  opacity: .5;
+}
+
+.form-check-mod {
+    padding: 20px 0;
+    padding-left: 32%;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .book-now-form-footer-container {
+        padding-right: 0 !important;
+    }
+}

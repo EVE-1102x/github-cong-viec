@@ -125,3 +125,47 @@ C:\Users\LapTop\Source\Repos\github-cong-viec\bin\Debug\netcoreapp3.1\libman.jso
 C:\Users\LapTop\Source\Repos\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs
 D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\bin\Debug\netcoreapp3.1\libman.json
 D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\appsettings.json
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\libman.json
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.exe
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.deps.json
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.runtimeconfig.json
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.runtimeconfig.dev.json
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.dll
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.pdb
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.Views.dll
+D:\For work\github-cong-viec-master\bin\Debug\netcoreapp3.1\web_demo_cong_viec.Views.pdb
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.GeneratedMSBuildEditorConfig.editorconfig
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.AssemblyInfoInputs.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.AssemblyInfo.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.csproj.CoreCompileInputs.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.MvcApplicationPartsAssemblyInfo.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.RazorAssemblyInfo.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.RazorAssemblyInfo.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.TagHelpers.input.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.TagHelpers.output.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.RazorCoreGenerate.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\Cruise.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.RazorTargetAssemblyInfo.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.RazorTargetAssemblyInfo.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.Views.pdb
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\staticwebassets\web_demo_cong_viec.StaticWebAssets.Manifest.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\staticwebassets\web_demo_cong_viec.StaticWebAssets.Pack.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.web_demo_cong_viec.Microsoft.AspNetCore.StaticWebAssets.props
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.web_demo_cong_viec.props
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.web_demo_cong_viec.props
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.web_demo_cong_viec.props
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.dll
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.pdb
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.genruntimeconfig.cache
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo.A3C45F9C.Up2Date
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\BookNow.cshtml.g.cs
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\ContactUs.cshtml.g.cs

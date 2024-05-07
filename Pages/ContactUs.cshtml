@@ -1,0 +1,61 @@
+﻿@page
+@model web_demo_cong_viec.Pages.ContactUsModel
+@{
+    ViewData["Title"] = "Contact us";
+}
+
+<link rel="stylesheet" href="~/css/contactUs.css" />
+
+<div class="row g-0">
+
+    <div class="col-sm-6">
+        <div class="top-left-cell">
+            <div class="top-left-cell-heading">Contact us</div>
+            <div class="divider"></div>
+            <div><i class="bi bi-geo-alt"></i> Cat Ba Office: Group 1 Dap Nuoc, 6th Ha Sen, Cat Ba town, Cat Ba Island
+            </div>
+            <div><i class="bi bi-telephone"></i> (+84) 354227768</div>
+            <div><i class="bi bi-envelope"></i> operator@catbacatamaran.com</div>
+        </div>
+
+        <div class="bottom-left-cell">
+            <form action="" method="post" enctype='multipart/form-data'>
+                <div class="modal-content modal-content-mod-2">
+                    <div class="modal-header modal-header-mod-2">
+                        <h1 class="modal-title" id="exampleModalLabel">Ask for advice</h1>
+                    </div>
+                    <div class="modal-body modal-body-mod-2">
+                        <div style="margin-bottom: 30px;">We are happy to hear from you. You can fill out all
+                            information in the form below, we will
+                            respond to you as soon as possible.</div>
+                        <div class="mb-3 ">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
+                                placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput2"
+                                placeholder="Phone*">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput3"
+                                placeholder="Email*">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control pop-up-form" id="exampleFormControlInput4"
+                                placeholder="Content need consultation">
+                        </div>
+                    </div>
+                    <div class="modal-footer modal-footer-mod-2">
+                        <button type="button" class="btn btn-secondary pop-up-button-1"
+                            data-bs-dismiss="modal">CANCEL</button>
+                        <button type="button" class="btn btn-primary pop-up-button-2">SEND</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-sm-6 right-cell">
+
+    </div>
+</div>

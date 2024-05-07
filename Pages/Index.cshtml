@@ -4,6 +4,47 @@
     ViewData["Title"] = "Home page";
 }
 
+<link rel="stylesheet" href="~/css/home.css" />
+
+@* Modal *@
+<form action="" method="post" enctype='multipart/form-data'>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 900px; padding: 50px;">
+            <div class="modal-content modal-content-mod">
+                <div class="modal-header modal-header-mod">
+                    <h1 class="modal-title" id="exampleModalLabel">Ask for advice</h1>
+                </div>
+                <div class="modal-body modal-body-mod">
+                    <div style="margin-bottom: 30px;">We are happy to hear from you. You can fill out all
+                        information in the form below, we will
+                        respond to you as soon as possible.</div>
+                    <div class="mb-3 ">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput1"
+                            placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput2"
+                            placeholder="Phone*">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput3"
+                            placeholder="Email*">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control pop-up-form" id="exampleFormControlInput4"
+                            placeholder="Content need consultation">
+                    </div>
+                </div>
+                <div class="modal-footer modal-footer-mod">
+                    <button type="button" class="btn btn-secondary pop-up-button-1"
+                        data-bs-dismiss="modal">CANCEL</button>
+                    <button type="button" class="btn btn-primary pop-up-button-2">SEND</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
 @* header start *@
 <div class="head-img-container">
     <img src="~/images/banner/cruise.png" class="img-fluid img-cruise" alt="Cruise">
@@ -12,7 +53,7 @@
             <div class="head-text-1" style="text-align:right;">Journey through the heart</div>
         </div>
         <div class="col-7 head-text-img">
-            <img src="~/images/banner/home-vector-1.png" width="100%" height="100%"/>
+            <img src="~/images/banner/home-vector-1.png" width="100%" height="100%" />
         </div>
     </div>
     <div class="row g-0">
@@ -24,58 +65,65 @@
 
 <div class="home-book-now-container">
     <form action="" method="post">
-    <div class="home-book-now-form">
-        <div class="row g-0" style="text-align: left !important;">
-            <div class="col-2">
-                <div class="mb-3">
-                    <label for="book-now-form-1" class="form-label home-book-now-label">Name</label>
-                    <input type="text" class="form-control home-book-now-input" id="book-now-form-1" placeholder="MiMi">
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="mb-3">
-                    <label for="book-now-form-2" class="form-label home-book-now-label">Email</label>
-                    <input type="email" class="form-control home-book-now-input" id="book-now-form-2" placeholder="mimi123@gmail.com">
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="mb-3">
-                    <label for="book-now-form-3" class="form-label home-book-now-label">Phone</label>
-                    <input type="number" class="form-control home-book-now-input" id="book-now-form-3" placeholder="0987654321">
-                </div>
-            </div>
-            <div class="col-2">
-                <label for="book-now-form-4" class="form-label home-book-now-label">Depature</label>
-                <input id="book-now-form-4" class="form-control home-book-now-input" type="date" />
-            </div>
-            <div class="col-2">
-                <div class="mb-3">
-                    <label for="book-now-form-3" class="form-label home-book-now-label">Guests</label>
-                    <div class="2-div-container">
-
-                        <select id="book-now-form-5 " class="form-select home-book-now-input" aria-label="Default select example" style="width: 45% !important; display: inline-block;">
-                            <option class="hidden_option" selected disabled>Adult</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-
-                        <select id="book-now-form-5 " class="form-select home-book-now-input" aria-label="Default select example" style="width: 45% !important; display: inline-block;">
-                            <option class="hidden_option" selected disabled>Kid</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-
+        <div class="home-book-now-form">
+            <div class="row g-0" style="text-align: left !important;">
+                <div class="col-2">
+                    <div class="mb-3">
+                        <label for="book-now-form-1" class="form-label home-book-now-label">Name</label>
+                        <input type="text" class="form-control home-book-now-input" id="book-now-form-1"
+                            placeholder="MiMi">
                     </div>
                 </div>
-            </div>
-            <div class="col-2">
-                <label for="" class="form-label home-book-now-label book-now-label-2">hajhasasa</label>
+                <div class="col-2">
+                    <div class="mb-3">
+                        <label for="book-now-form-2" class="form-label home-book-now-label">Email</label>
+                        <input type="email" class="form-control home-book-now-input" id="book-now-form-2"
+                            placeholder="mimi123@gmail.com">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="mb-3">
+                        <label for="book-now-form-3" class="form-label home-book-now-label">Phone</label>
+                        <input type="number" class="form-control home-book-now-input" id="book-now-form-3"
+                            placeholder="0987654321">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <label for="book-now-form-4" class="form-label home-book-now-label">Depature</label>
+                    <input id="book-now-form-4" class="form-control home-book-now-input" type="date" />
+                </div>
+                <div class="col-2">
+                    <div class="mb-3">
+                        <label for="book-now-form-3" class="form-label home-book-now-label">Guests</label>
+                        <div class="2-div-container">
+
+                            <select id="book-now-form-5 " class="form-select home-book-now-input"
+                                aria-label="Default select example"
+                                style="width: 45% !important; display: inline-block;">
+                                <option class="hidden_option" selected disabled>Adult</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                            <select id="book-now-form-5 " class="form-select home-book-now-input"
+                                aria-label="Default select example"
+                                style="width: 45% !important; display: inline-block;">
+                                <option class="hidden_option" selected disabled>Kid</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <label for="" class="form-label home-book-now-label book-now-label-2">hajhasasa</label>
                     <button class="button-24" type="submit">BOOK NOW</button>
+                </div>
             </div>
         </div>
-    </div>
     </form>
 </div>
 
@@ -83,5 +131,3 @@
     <img src="~/images/banner/home-lower-banner.png" class="img-fluid" alt="Cruise" height="100%" width="100%">
     <div>bulu bulu</div>
 </div>
-
-
