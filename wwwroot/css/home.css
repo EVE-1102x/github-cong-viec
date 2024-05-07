@@ -658,6 +658,8 @@ select>option.hidden_option {
 
 .home-section-6-container .texter-top {
     color: #002E3B;
+    padding-top: 140px;
+    padding-right: 60px;
 }
 
 .home-subscribe-form-container {
@@ -673,11 +675,6 @@ select>option.hidden_option {
 
 .home-subscribe-form-container label {
     font-family: "Montserrat", sans-serif;
-}
-
-.texter-top {
-    padding-top: 140px;
-    padding-right: 60px;
 }
 
 .button-book-now {
