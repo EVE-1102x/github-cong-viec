@@ -16,7 +16,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("web_demo_cong_viec")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2c1899517a2157b4694f4025037de83dbc00fe5")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+436ee69a2d0a0a19a351f11724495a17e64cb802")]
+>>>>>>> 7f9aa9e1087a1ba65f95952b93f68ff64186d642
 [assembly: System.Reflection.AssemblyTitleAttribute("web_demo_cong_viec.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
