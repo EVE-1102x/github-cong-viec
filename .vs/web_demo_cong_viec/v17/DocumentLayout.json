@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\",
+  "WorkspaceRootPath": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|d:\\presonal\\dotnet\\web_demo_cong_viec\\github-cong-viec\\pages\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|solutionrelative:pages\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|d:\\presonal\\dotnet\\web_demo_cong_viec\\github-cong-viec\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|c:\\users\\laptop\\source\\repos\\github-cong-viec\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\images\\banner\\cruise.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\images\\banner\\cruise.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|solutionrelative:wwwroot\\images\\banner\\cruise.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{674A9BF5-1A3A-4B99-AFA4-AB9A340B2761}|web_demo_cong_viec.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,11 +50,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Itinerary.cshtml",
+              "DocumentMoniker": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Itinerary.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Itinerary.cshtml",
+              "ToolTip": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Itinerary.cshtml",
+              "RelativeToolTip": "Pages\\Itinerary.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T08:46:57.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -58,61 +75,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "cruise.png - PNG [1920x943, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\images\\banner\\cruise.png",
+              "DocumentMoniker": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\images\\banner\\cruise.png",
               "RelativeDocumentMoniker": "wwwroot\\images\\banner\\cruise.png",
               "ToolTip": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\images\\banner\\cruise.png - PNG [1920x943, 32 bit, PNG]",
-              "RelativeToolTip": "wwwroot\\images\\banner\\cruise.png - PNG [1920x943, 32 bit, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2024-05-02T03:58:11.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\Pages\\Index.cshtml",
+              "DocumentMoniker": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFEAAAAgAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-02T03:57:36.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "home.css",
-              "DocumentMoniker": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\css\\home.css",
+              "DocumentMoniker": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
-              "ToolTip": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\wwwroot\\css\\home.css",
+              "ToolTip": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\wwwroot\\css\\home.css",
               "RelativeToolTip": "wwwroot\\css\\home.css",
               "ViewState": "AQIAAI4AAAAAAAAAAAAAAJ8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-02T03:49:39.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T03:49:39.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAKIAAAAAAAAAAAAAAKYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T03:31:37.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T03:31:37.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\LapTop\\source\\repos\\github-cong-viec\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\presonal\\DotNet\\web_demo_cong_viec\\github-cong-viec\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
