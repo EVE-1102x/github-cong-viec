@@ -146,6 +146,7 @@ select>option.hidden_option {
   touch-action: manipulation;
   vertical-align: middle;
   width: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
 .button-book-now:hover,
@@ -153,6 +154,7 @@ select>option.hidden_option {
   background-color: initial;
   background-position: 0 0;
   color: #FFA800;
+  transition: all 0.3s ease-in-out;
 }
 
 .button-book-now:active {

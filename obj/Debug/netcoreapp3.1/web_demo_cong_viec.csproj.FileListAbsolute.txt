@@ -171,3 +171,8 @@ D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\BookNow.
 D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\Razor\Pages\ContactUs.cshtml.g.cs
 D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\BookNow.cshtml.g.cs
 D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\ContactUs.cshtml.g.cs
+<<<<<<< HEAD
+=======
+D:\For work\github-cong-viec-master\obj\Debug\netcoreapp3.1\web_demo_cong_viec.sourcelink.json
+>>>>>>> binh
+D:\presonal\DotNet\web_demo_cong_viec\github-cong-viec\obj\Debug\netcoreapp3.1\Razor\Pages\Itinerary.cshtml.g.cs
